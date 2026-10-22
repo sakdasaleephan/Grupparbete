@@ -7,3 +7,16 @@ if (harBiljett && arOver18) {
 else {
     console.log("GOODBYE")
 }
+
+const light = "gul"
+
+switch (light) {
+
+    case "röd" : console.log("Stanna")
+    break;
+    case "gul" : console.log("Gör dig redo...")
+    break;
+    case "grön" : console.log("Kör!!!")
+    break;
+    default: console.log("Okänd signal")
+}
