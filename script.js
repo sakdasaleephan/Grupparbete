@@ -36,3 +36,8 @@ switch (weather) {
 for (let i = 0; i < 6; i++){
     console.log(i);
 }
+
+const fruits = ["banan", "äpple", "mango"]
+for (let i = 0; i< fruits.length; i++){
+    console.log(fruits[i])
+}
