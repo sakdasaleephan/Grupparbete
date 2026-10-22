@@ -1,6 +1,7 @@
 console.log("hello world")
 harBiljett = true;
 arOver18 = false;
+
 if (harBiljett && arOver18) {
     console.log("Hello there")
 }
@@ -38,6 +39,15 @@ for (let i = 0; i < 6; i++){
 }
 
 const fruits = ["banan", "äpple", "mango"]
+
 for (let i = 0; i< fruits.length; i++){
     console.log(fruits[i])
 }
+
+let energi = 3
+
+while (energi > 0) {
+    console.log("Spring ett varv till!")
+    energi--;
+}
+console.log("du behöver inte springa mer")
