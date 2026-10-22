@@ -20,3 +20,15 @@ switch (light) {
     break;
     default: console.log("Okänd signal")
 }
+
+const weather = "regn"
+
+switch (weather) {
+    case 'regn': console.log("oj vad dåligt väder")
+    break;
+    case 'sol': console.log("oj vad fint väder")
+    break;
+    case 'moln': console.log("oj vad tråkigt väder")
+    break;
+    default: console.log("wtf är detta för väder")
+}
