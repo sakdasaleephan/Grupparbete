@@ -73,5 +73,6 @@ for (let countdown = 5; countdown >= 0; countdown--){
     else {
         console.log(countdown + " sekunder kvar")
     }
-    console.log("liftoff!!")
 }
+
+console.log("liftoff!!")
