@@ -48,6 +48,29 @@ let energi = 3
 
 while (energi > 0) {
     console.log("Spring ett varv till!")
-    energi--;
+    energi--
 }
 console.log("du behöver inte springa mer")
+
+let elever = [
+    {namn: "anna", poang:85},
+    {namn: "adam", poang:805},
+    {namn: "nils", poang:815},
+]
+
+for (let i = 0; i <elever.length; i++){
+    console.log(elever[i].namn)
+}
+
+for (const elev of elever) {
+    console.log(elev)
+}
+
+for (let countdown = 5; countdown >= 0; countdown--){
+    if (countdown === 3){
+        console.log("du har " + countdown + " sekunder kvar")
+    }
+    else {
+        console.log(countdown + " sekunder kvar")
+    }
+}
