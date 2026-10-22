@@ -32,3 +32,7 @@ switch (weather) {
     break;
     default: console.log("wtf är detta för väder")
 }
+
+for (let i = 0; i < 6; i++){
+    console.log(i);
+}
