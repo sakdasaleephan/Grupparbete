@@ -1,4 +1,5 @@
 console.log("hello world")
+
 harBiljett = true;
 arOver18 = false;
 
@@ -31,7 +32,7 @@ switch (weather) {
     break;
     case 'moln': console.log("oj vad tråkigt väder")
     break;
-    default: console.log("wtf är detta för väder")
+    default: console.log("wtf är detta för väder") 
 }
 
 for (let i = 0; i < 6; i++){
