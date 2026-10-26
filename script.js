@@ -77,3 +77,28 @@ for (let countdown = 5; countdown >= 0; countdown--){
 }
 
 console.log("liftoff!!")
+
+const cart = ["Mjölk", "Godis", "Bröd", "Godis", "Äpple"]
+for (const product of cart){
+    if (product === "Godis"){
+        console.log("Varning: Onödig vara!")
+    }
+    else{
+        console.log("Köp: " + product)
+    }
+}
+
+
+const skapaKonto = (namn, alder, roll = "Gäst") => {
+    console.log(`Hej ` + namn,alder,roll)
+
+    if (alder < 18) {
+        return { message: `du är Inte myndig` }
+    }
+
+    return {message: `Du är myndig`}
+}
+
+const skapaKontoObject = skapaKonto(`Sakda`, 23, `Student`)
+
+console.log(skapaKontoObject.message)
