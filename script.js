@@ -37,9 +37,7 @@ function raknaMedel(array){
     return summa / array.length
 }
 
-const medel = raknaMedel(provPoang)
-
-console.log(`Medelpoäng på provet: ${medel}`)
+console.log(`Medelpoäng på provet: ${raknaMedel(provPoang)}`)
 
 //Uppgift 3
 const kunder = [
@@ -61,7 +59,7 @@ const getVipBonus = (kundArray) => {
             })
         }
     }
-
+    
     return resultat
 };
 
