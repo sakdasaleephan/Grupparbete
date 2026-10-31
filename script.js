@@ -67,6 +67,8 @@ const getVipBonus = (kundArray) => {
 console.log(getVipBonus(kunder))
 */
 
+/*
+//Number guessing game
 const minNum = 1
 const maxNum = 100
 const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum
@@ -100,3 +102,40 @@ while(running){
 
     running = false
 }
+*/
+/* HappyBday function
+function happyBday(username, age){
+    console.log(`Happy birthday to you`)
+    console.log(`Happy birthday to you`)
+    console.log(`Happy birthday dear ${username}`)
+    console.log(`Happy birthday to you, congrats on turning ${age} ${username}!!`)
+}
+happyBday("Sakda", 23)
+happyBday("Alex", 25)
+*/
+
+/*
+function add(x,y){
+    return x + y
+}
+function subtract(x,y){
+    return x - y
+}
+function multiply(x,y){
+    return x * y
+}
+
+
+console.log(multiply(2,3))
+
+function isValidEmail(email){
+    if(email.includes("@")){
+        return "This is a valid email"
+    }
+    else{
+        return "Not a vaid email"
+    }
+}
+
+console.log(isValidEmail("Sakdasaleephan@gmail.com"))
+*/
