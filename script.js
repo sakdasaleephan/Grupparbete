@@ -139,3 +139,17 @@ function isValidEmail(email){
 
 console.log(isValidEmail("Sakdasaleephan@gmail.com"))
 */
+
+/*
+practised with local and global scope
+function1()
+
+function function1(){
+    let x = 1
+    console.log(x)
+}
+function function2(){
+    let y = 2
+    console.log(y)
+}
+*/
